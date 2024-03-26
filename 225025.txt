@@ -1,0 +1,108 @@
+Грешката која се појавува при rebase се решава така што, под претпоставка дека сакаме да се извршат двата повици, го поместуваме едниот повик во следната линија така што ќе нема “дупла“ промена на линија 16
+
+
+3. Креирајте оддалечен (remote) репозиториум на GitHub:
+   - Команда: git remote add origin <repository_URL>
+
+4. Креирајте локален репозиториум и иницијализирајте го Git:
+   - Команди:
+     mkdir SI_2024_lab1_225025
+     cd SI_2024_lab1_225025
+     git init
+
+5. Поврзете го локалниот репозиториум со оддалечениот репозиториум:
+   - Команда: git remote add origin <repository_URL>
+
+
+6. Додадете README.md и направете почетен commit:
+   - Команди:
+     touch README.md
+     git add README.md
+     git commit -m "Initial commit"
+
+7. Додадете почетни фајлови со код и направете commit:
+   - Команди:
+     git add <file1> <file2> <file3>
+     git commit -m "Add starter code"
+
+8. Синхронизирајте ги сите гранки со оддалечениот репозиториум:
+   - Команда: git push --all origin
+
+9. Креирајте и префрлете се на bug1 и bug2 гранките:
+   - Команди:
+     git checkout bug1
+     git checkout bug2
+
+10. Префрлете се на bug1 гранката:
+    - Команда: git checkout bug1
+
+11. Поправете го багот во методот filterOddLengthStrings и направете commit:
+    - Команди:
+      git add .
+      git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. Префрлете се на bug2 гранката:
+    - Команда: git checkout bug2
+
+13. Поправете го багот во методот makeBigStringFrom и направете commit:
+    - Команди:
+      git add .
+      git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14. Префрлете се повторно на bug1 гранката:
+    - Команда: git checkout bug1
+
+15. Додадете повик на методот во SILab1Main и направете commit:
+    - Команди:
+      git add SILab1Main.java
+      git commit -m "Call method filterOddLengthStrings in main class"
+
+16. Префрлете се повторно на bug2 гранката:
+    - Команда: git checkout bug2
+
+17. Додадете повик на методот во SILab1Main и направете commit:
+    - Команди:
+      git add SILab1Main.java
+      git commit -m "Call method makeBigStringFrom in main class"
+
+18. Синхронизирајте ги сите гранки со оддалечениот репозиториум:
+    - Команда: git push --all origin
+
+19. Префрлете се повторно на master гранката:
+    - Команда: git checkout master
+
+20. Спојте ја bug1 гранката во master:
+    - Команди:
+      git merge bug1
+
+21. Синхронизирајте ги сите гранки со оддалечениот репозиториум:
+    - Команда: git push --all origin
+
+22. Префрлете се повторно на bug2 гранката:
+    - Команда: git checkout bug2
+
+23. Направете rebase на bug2 гранката врз master:
+    - Команда: git rebase master
+
+24. Префрлете се повторно на master гранката:
+    - Команда: git checkout master
+
+25. Спојте ја bug2 гранката во master:
+    - Команди:
+      git merge bug2
+
+26. Синхронизирајте ги сите гранки со оддалечениот репозиториум:
+    - Команда: git push --all origin
+
+27. Force Push на bug2 гранката ако е потребно:
+    - Команда: git push --force origin bug2
+
+28. Додадете ги logs.txt и INDEX.txt, и направете финален commit:
+    - Команди:
+      git add logs.txt INDEX.txt
+      git commit -m "Final commit"
+
+29. Синхронизирајте ги сите гранки со оддалечениот репозиториум:
+    - Команда: git push --all origin
+
+

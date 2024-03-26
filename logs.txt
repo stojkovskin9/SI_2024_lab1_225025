@@ -1,0 +1,36 @@
+commit 8b6473a8ecfc65aa5dfb927cdecb24ea1e27ca45 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Nikola Stojkovski <nikolastojkovski8@gmail.com>
+Date:   Tue Mar 26 17:23:01 2024 +0100
+
+    Call method makeBigStringFrom in main class
+
+commit 68f733c265db414f658fdb310823e33ba395cfee
+Author: Nikola Stojkovski <nikolastojkovski8@gmail.com>
+Date:   Tue Mar 26 17:20:32 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 41adfecbc83c59aafcde32e303181781f8e702db (origin/bug1, bug1)
+Author: Nikola Stojkovski <nikolastojkovski8@gmail.com>
+Date:   Tue Mar 26 17:21:50 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 7529381505b6103341f114af075b3b3f461b7b07
+Author: Nikola Stojkovski <nikolastojkovski8@gmail.com>
+Date:   Tue Mar 26 17:18:12 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 8876c664444a8093b64f971cb421d1abac34a254
+Author: Nikola Stojkovski <nikolastojkovski8@gmail.com>
+Date:   Tue Mar 26 17:15:37 2024 +0100
+
+    Add starter code
+
+commit 1d5cec97d6350f0ea677a140f82a7d3add89c36c
+Author: Nikola Stojkovski <nikolastojkovski8@gmail.com>
+Date:   Tue Mar 26 17:14:42 2024 +0100
+
+    Initial commit
+
